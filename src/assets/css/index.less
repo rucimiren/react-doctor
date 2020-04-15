@@ -1,0 +1,525 @@
+html,body,div,h1,h2,h3,h4,h5,h6,input,p{
+  margin: 0;
+  padding: 0;
+}
+body{
+  touch-action: none;
+  .HO-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+  .HO-tabbar{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+  }
+
+  #HO-desc{
+    .desc{
+      padding: 15px;
+      color: 		#272727;
+      p{
+        background-color: 	#BBFFFF;
+        text-indent: 10px;
+        margin: 10px 0;
+        padding: 10px 5px;
+        border-radius: 8px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  
+  .load{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heal-time{
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #HO-gonglue{
+    .buzhou{
+   
+      .am-steps-label-vertical{
+        .am-steps-item-content{
+          width: auto;
+        }
+      } 
+    }
+    .next{
+      padding: 20px 10px ;
+    }
+    .am-button{
+      font-size: 16px;
+    }
+  }
+  
+
+  #allmap{
+    width: 100vw;
+    height:calc(~'100vh - 46px');
+  }
+
+#HO-login{
+  .form{
+    margin-top: 15px;
+    .am-list-item {
+        padding-right: 15px;
+      .am-input-label{
+        font-size: 16px;
+        color:	#2894FF;
+      }
+      .am-input-control{
+        font-size: 14px;
+        input{
+          font-size: 14px;
+          border: 1px solid #2894FF;
+          border-radius: 15px;
+          text-indent: 5px;
+          height: 35px;
+        }
+      }
+
+    }
+    .denglu{
+      padding: 20px 10px;
+    }
+  }
+
+}
+
+#HO-zhuce{
+  .form{
+    margin-top: 15px;
+    .am-list-item {
+        padding-right: 15px;
+      .am-input-label{
+        font-size: 16px;
+        color:	#2894FF;
+        text-align: center;
+      }
+      .am-input-control{
+        font-size: 14px;
+        input{
+          font-size: 14px;
+          border: 1px solid #2894FF;
+          border-radius: 15px;
+          text-indent: 5px;
+          height: 35px;
+        }
+      }
+
+    }
+    .denglu{
+      padding: 20px 10px;
+    }
+
+
+    .zhuce-btn{
+      padding: 0 5px;
+      margin: 0;
+    }
+    .tongyi{
+      padding: 0 10px;
+      span{
+        color:#2894FF;
+      }
+    }
+  }
+
+
+
+}
+
+#HO-must{
+  
+  .must{
+    padding: 10px;
+    color: #272727;
+    p{
+      background-color: 	#BBFFFF;
+        text-indent: 20px;
+        margin: 10px 0;
+        padding: 10px 5px;
+        border-radius: 8px;
+        line-height: 20px;
+    }
+    .two{
+      font-size: 25px;
+    }
+  }
+}
+
+#HO-setPwd{
+  .form{
+    margin-top: 15px;
+    .am-list-item {
+        padding-right: 15px;
+      .am-input-label{
+        font-size: 16px;
+        color:	#2894FF;
+        text-align: center;
+      }
+      .am-input-control{
+        font-size: 14px;
+        input{
+          font-size: 14px;
+          border: 1px solid #2894FF;
+          border-radius: 15px;
+          text-indent: 5px;
+          height: 35px;
+        }
+      }
+
+    }
+    .denglu{
+      padding: 20px 10px;
+    }
+
+  }
+
+
+
+}
+#HO-manyi{
+  h1{
+    padding: 10px;
+  }
+}
+
+.app-zhan{
+  margin-top: 50px;
+}
+
+#HO-user{
+  .head{
+    overflow: hidden;
+    width: 100vw;
+    padding: 10px;
+    height: 125px;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+
+    .zuo{
+      float: left;
+      width: 30%;
+      height: 100%;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .you{
+      float: left;
+      width: 70%;
+      height: 100%;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+
+  }
+
+  .content{
+    .item{
+      display: flex;
+      height: 45px;
+      background-color: #fff;
+      align-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid #e8e8e8;
+      .item-left{
+        width: 20%;     
+        box-sizing: border-box;
+        text-align: center;
+        i{
+          color:rgb(255, 104, 93);
+          font-size: 25px;
+        }
+        i.one{
+          border:2px solid rgb(255, 104, 93);
+          border-radius: 50%;
+          width: 25px;
+          height: 25px;
+          font-size: 25px;
+          overflow: hidden;
+          display: inline-block;
+          color:rgb(255, 104, 93);
+          vertical-align: middle;
+        }
+      }
+      .item-right{
+        width: 15%;
+        padding-left: 2%;
+        box-sizing: border-box;
+        text-align: center;
+        i{
+          font-weight:bold;
+          color:rgb(51, 163, 244);
+        }
+      }
+      .item-center{
+        flex: 1;
+        font-size: 15px;
+      }
+    }
+  }
+
+
+}
+
+#HO-guahaolist{
+  .order{
+    overflow: hidden;
+    background-color: 		#A6FFFF;
+    margin: 10px;
+    border-radius: 10px;
+    .flex{
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+    }
+
+  }
+}
+
+
+#HO-baogao{
+
+  .form{
+    margin-top: 15px;
+    .am-list-item {
+        padding-right: 15px;
+      .am-input-label{
+        font-size: 14px;
+        color:	#2894FF;
+      }
+      .am-input-control{
+        font-size: 14px;
+        input{
+          font-size: 14px;
+          border: 1px solid #2894FF;
+          border-radius: 15px;
+          text-indent: 5px;
+          height: 35px;
+        }
+      }
+
+    }
+    .denglu{
+      padding: 20px 10px;
+    }
+  }
+
+}
+
+#HO-baogaolist{
+  .content{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ADFEDC;
+    .flex{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 45px;
+      padding: 0 10px;
+    }
+    .btn{
+      padding: 5px;
+    }
+  }
+}
+
+#HO-yuyue{
+  .my-list{
+    .am-list-line{
+      .am-list-content,.am-list-extra{
+        font-size: 14px;
+      }
+      
+    }
+    i{
+      font-size: 20px;
+      color:rgb(51, 163, 244);
+    }
+  }
+  .from{
+    i{
+      font-size: 20px;
+      color:rgb(51, 163, 244);
+      margin-right: 15px;
+      vertical-align: middle;
+    }
+    i.teshu{
+      margin-left: -3px;
+      margin-right: 10px;
+    }
+    span{
+      font-size: 14px;
+    }
+    .am-input-control{
+      input{
+      
+          font-size: 14px;
+          border: 1px solid #2894FF;
+          border-radius: 15px;
+          text-indent: 5px;
+          height: 35px;
+        
+      }
+    }
+.sex{
+  overflow: hidden;
+  padding-left: 15px;
+  background-color: #fff;
+  height: 44px;
+  box-sizing: border-box;
+  .gender{
+    height: calc(~'100% - 1px');
+    border-bottom: 1px solid #e8e8e8;
+   display: flex;
+   align-items: center;
+   span{
+     margin-right: 25px;
+   }
+   label{
+    vertical-align: middle;
+   }
+   input{
+     margin: 0 5px;
+     width: 15px;
+     height: 15px;
+   }
+  }
+}
+
+  }
+
+
+  .tishi{
+    background-color: #fff;
+      padding: 10px;
+    .tishi-child{
+      padding: 5px;
+      background-color:#80FFFF;
+      border-radius: 10px;
+      font-size: 22px;
+      line-height: 30px;
+      
+      
+        color: red;
+      
+    }
+  }
+
+}
+
+#HO-keshi{
+  .content{
+    margin: 10px;
+    background-color: #ADFEDC;
+    border-radius: 10px;
+    padding: 10px;
+    h2{
+      text-align: center;
+    }
+    p{
+      padding: 5px;
+      margin: 5px;
+      background-color: rgb(51, 163, 244);
+      border-radius: 10px;
+      color:#fff;
+    }
+  }
+
+
+}
+
+#HO-doctor{
+  .list{
+    background-color: #fff;
+    .content{
+      overflow: hidden;
+      height: 92px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      padding: 5px;
+      display: flex;
+      .zuo{ 
+        height: 100%;
+        width: 92px;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .you{
+
+        flex: 1;
+        padding-left: 5px;
+        padding-top: 5px;
+        .you-item{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 5px;
+          font-size: 12px;
+          color:#777
+        }
+        
+      }
+
+
+    }
+  }
+
+}
+
+
+//enter是入场前的刹那（点击按钮），appear指页面第一次加载前的一刹那（自动）
+.fade-enter, .fade-appear {
+  opacity: 0;
+}
+//enter-active指入场后到入场结束的过程，appear-active则是页面第一次加载自动执行
+.fade-enter-active, .fade-appear-active { 
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+//入场动画执行完毕后，保持状态
+.fade-enter-done {
+  opacity: 1;
+}
+//同理，出场前的一刹那，以下就不详细解释了，一样的道理
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 800s ease-in;
+}
+
+.fade-exit-done {
+  opacity: 0;
+}
+
+}
